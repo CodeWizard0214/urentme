@@ -1,0 +1,10 @@
+.searchInput {
+  padding-left: 3rem;
+}
+
+.searchIcon {
+  color: #8c8c8c;
+  position: absolute;
+  top: 30%;
+  left: 1.25rem;
+}

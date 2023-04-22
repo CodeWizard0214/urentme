@@ -1,0 +1,43 @@
+.uploadImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 160px;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #5c5c5c;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.imageWrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+.imageItem {
+  width: 100%;
+  height: 100%;
+  object-position: 50% 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.plusButton {
+  padding: 60px 80px;
+}
+
+.plusImage {
+  width: 44px;
+  height: 44px;
+}

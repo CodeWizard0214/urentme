@@ -1,0 +1,15 @@
+.mapContainer {
+  flex: 1 1 auto;
+  min-height: 400px;
+}
+
+.mapContainer > div {
+  height: 100%;
+}
+
+.locationInfo {
+  width: 350px;
+  height: 85px;
+  text-align: center;
+  padding: 10px;
+}

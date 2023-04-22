@@ -1,0 +1,25 @@
+
+.listHeight {
+  height: 60vh;
+}
+.collapse {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+}
+.userList {
+  width: 260px;
+  min-height: 60vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  align-items: stretch;
+  align-self: stretch;
+  padding-right: 1px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(213, 217, 222);
+  width: 322px;
+}

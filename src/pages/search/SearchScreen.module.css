@@ -1,0 +1,35 @@
+.searchList {
+  width: 260px;
+}
+
+.mapContainer {
+  flex: 1 1 auto;
+}
+
+.mapContainer > div {
+  height: 100%;
+}
+
+.collapse {
+  position: absolute;
+  top: calc(50%);
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .searchList {
+    width: 320px;
+  }
+}
+
+@media (min-width: 992px) {
+  .searchList {
+    width: 420px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .searchList {
+    width: 500px;
+  }
+}

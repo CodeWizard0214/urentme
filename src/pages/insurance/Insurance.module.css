@@ -1,0 +1,25 @@
+.content {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #5c5c5c;
+}
+
+.content li {
+  margin-bottom: 1rem;
+}
+
+.content li::before {
+  content: "•";
+  font-size: 2rem;
+  color: var(--app-primary);
+  vertical-align:middle;
+  width: 1.5rem;
+  margin-left: -1.5rem;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .content li {
+    margin-bottom: 1.5rem;
+  }
+}

@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.imageContainer {
+  position: relative;
+  margin-right: 2rem;
+}
+
+.itemWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  width: 166px;
+  height: 125px;
+  overflow: hidden;
+}
+
+.itemImage {
+  width: 100%;
+  height: auto;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid white;
+  position: absolute;
+  top: calc(50% - 24px);
+  right: -24px;
+}
+
+.textContainer {
+  max-width: 180px;
+  overflow: hidden;
+}

@@ -1,0 +1,12 @@
+.content ul li {
+  list-style: none;
+}
+
+.content ul li::before {
+  content: '•';
+  color: var(--app-primary);
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1rem;
+}

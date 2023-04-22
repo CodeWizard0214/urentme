@@ -1,0 +1,54 @@
+.arrowButton {
+  position: absolute;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.leftButton {
+  top: calc(50% - 1.5rem);
+  left: 4%;
+}
+
+.rightButton {
+  top: calc(50% - 1.5rem);
+  right: 4%;
+}
+
+.primaryButton:hover {
+  background-color: var(--app-primary);
+}
+
+.secondaryButton:hover {
+  background-color: var(--app-primary-hover);
+}
+
+.arrowIcon {
+  font-size: 2.2rem;
+}
+
+.primaryIcon {
+  color: var(--app-primary);
+}
+
+.primaryButton:hover .primaryIcon {
+  color: white;
+}
+
+.secondaryIcon {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .leftButton {
+    left: -4%;
+  }
+  
+  .rightButton {
+    right: -4%;
+  }
+}

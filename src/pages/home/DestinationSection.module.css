@@ -1,0 +1,16 @@
+.container {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.dotList {
+  position: inherit;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+}

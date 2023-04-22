@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  padding: 1rem 1.5rem;
+}
+
+.itemImage {
+  flex: 0 0 auto;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  height: 240px;
+}
+
+.itemImage img {
+  object-fit: cover;
+}
+
+.title {
+  width: 150px;
+}
+
+@media (min-width: 992px) {
+  .card {
+    flex-direction: row;
+  }
+
+  .itemImage {
+    width: 240px;
+    height: 160px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .itemImage {
+    width: 320px;
+    height: 240px;
+  }
+}

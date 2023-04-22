@@ -1,0 +1,101 @@
+.pageHeader {
+  min-height: 70vh;
+  max-height: 800px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.pageHeaderImage {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.pageHeaderImage::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #1a18187f;
+  z-index: -1;
+}
+
+.contentCenter {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--app-primary-text);
+  padding: 0 15px;
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.learnButton {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+.playIcon {
+  font-size: 28px;
+}
+
+.playVideo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 72px;
+  height: 72px;
+  padding: 0;
+  background-color: #ffdfcca0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.playVideo::before {
+  position: absolute;
+  content: '';
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 72px;
+  height: 72px;
+  background-color: var(--app-primary);
+  border-radius: 50%;
+  opacity: 0.5;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-name: playPluse;
+}
+
+@keyframes playPluse {
+  from {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 0.8;
+  }
+
+  to {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}

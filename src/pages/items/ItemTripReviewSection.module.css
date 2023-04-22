@@ -1,0 +1,21 @@
+.carousel {
+  position: relative;
+}
+
+.carouselItem {
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+}
+
+.dotList {
+  position: inherit;
+  margin-top: 10px;
+}
+
+.readAll {
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+  cursor: pointer;
+}

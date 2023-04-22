@@ -1,0 +1,77 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  /* box-shadow: 4px 4px 23px rgba(0, 0, 0, 0.12); */
+  border-radius: 8px;
+  padding: 24px 16px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #18191f;
+  margin-top: 12px;
+}
+
+.summary {
+  font-weight: normal;
+  font-size: 14px;
+  color: #474a57;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+.imageItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.feedback {
+  width: 100%;
+  height: 95%;
+  padding: 20px 12px 12px 12px;
+  /* overflow: auto; */
+}
+
+.speakBubble {
+  margin-top: 28px;
+  flex-grow: 1;
+  min-height: 180px;
+  position: relative;
+	border-radius: 10px;
+  border: #c4c4c4 solid 1px;
+}
+
+.speakBubble::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-color: #ffffff transparent;
+  border-width: 0 20px 20px;
+  top: -20px;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.speakBubble::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  z-index: 0;
+  border-style: solid;
+  border-color: #c4c4c4 transparent;
+  border-width: 0 21px 21px;
+  top: -21.5px;
+  left: 50%;
+  margin-left: -21px;
+}

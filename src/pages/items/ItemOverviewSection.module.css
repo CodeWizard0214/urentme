@@ -1,0 +1,12 @@
+.readmore span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #5c5c5c;
+}
+
+.readmore span>div {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: #121212;
+  cursor: pointer;
+}

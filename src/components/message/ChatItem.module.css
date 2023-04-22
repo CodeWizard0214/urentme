@@ -1,0 +1,39 @@
+.chatItem {
+  display: flex;
+  flex-direction: row;
+  min-width: 240px;
+  max-width: 100%;
+  height: 72px;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.chatItem:hover,
+.chatActive {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px 0 13px;
+}
+
+.body {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 15px;
+  overflow: hidden;
+}
+
+.subTitle {
+  flex: 1 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

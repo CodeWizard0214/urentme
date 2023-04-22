@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+  width: 100%;
+  border: 1px solid #5c5c5c;
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 320px;
+  }
+}

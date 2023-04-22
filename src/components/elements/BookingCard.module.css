@@ -1,0 +1,31 @@
+.card {
+  background: #ffffff;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 1.5rem 1.875rem;
+  position: relative;
+}
+
+.itemImage {
+  border-radius: 4px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: -24px 0 0 0;
+  cursor: pointer;
+}
+
+.bookmark {
+  position: absolute;
+  right: 1.5rem;
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .avatar {
+    margin: 0 0 0 -24px;
+  }
+}

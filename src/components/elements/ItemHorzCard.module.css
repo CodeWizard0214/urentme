@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 0.75rem;
+  padding: 0.875rem 1.625rem;
+  position: relative;
+  /* box-shadow: 4px 4px 23px rgba(0, 0, 0, 0.12); */
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.itemImage {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  margin-right: 1rem;
+  width: 200px;
+  height: 142px;
+}
+.itemImage img{
+  object-fit: cover;
+}
+
+.heartCircle {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+}

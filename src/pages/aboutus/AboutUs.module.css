@@ -1,0 +1,10 @@
+.container {
+  background-color: var(--app-primary);
+  padding: 3.5rem 3rem 2rem 3rem;
+}
+
+.carousel {
+  position: relative;
+  margin: 0 2rem;
+  padding: 0 2rem;
+}

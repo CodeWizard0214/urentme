@@ -1,0 +1,59 @@
+.container {
+  position: relative;
+  color: #ffffff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.placeholder {
+  background-image: url(../../assets/images/home/register-placeholder.png);
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+}
+
+.placeholder::before {
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.pricebox {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 15px 20px;
+  margin: 10px auto;
+  min-width: 200px;
+}
+
+.selectGroup {
+  max-width: 320px;
+}
+
+.description {
+  max-width: 960px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}

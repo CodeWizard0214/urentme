@@ -1,0 +1,6 @@
+.absolute {
+  position: absolute;
+  width: unset !important;
+  left: calc(50% - 18px);
+  top: calc(50% - 24px);
+}

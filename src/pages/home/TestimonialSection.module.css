@@ -1,0 +1,22 @@
+.container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 56px;
+  color: #121212;
+}
+
+.carousel {
+  position: relative; /* this is important to use custom button group */
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+}

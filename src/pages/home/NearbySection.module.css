@@ -1,0 +1,15 @@
+.container {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.carousel {
+  position: relative; /* this is important to use custom button group */
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+}

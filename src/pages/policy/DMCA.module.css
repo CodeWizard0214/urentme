@@ -1,0 +1,45 @@
+.sidebar {
+  background-color: var(--app-primary);
+  padding: 1.5rem;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #ffdfcc; 
+  border-radius: 10px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: var(--app-primary-hover);
+}
+
+.item:hover {
+  opacity: 1;
+}
+
+.unselect {
+  opacity: 0.71;
+}
+
+.content {
+  color: #5c5c5c;
+  background-color: #edf2fa;
+}
+
+.content h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #121212;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.content h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #121212;
+  margin-bottom: 1rem;
+}
+
+.content a {
+  color: #121212;
+  text-decoration: none;
+}

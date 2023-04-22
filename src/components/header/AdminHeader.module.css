@@ -1,0 +1,53 @@
+.navbar {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  height: 93px;
+}
+
+.nav {
+  align-items: center;
+}
+
+.navlink {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #3d3d3d;
+}
+
+.account {
+  font-size: 1.5rem;
+  color: #717171;
+  width: 30px;
+  height: 30px;
+}
+
+.navlink:hover,
+.account:hover {
+  color: var(--app-primary);
+}
+
+.active {
+  color: var(--app-primary);
+  border-bottom: 3px solid var(--app-primary);
+}
+
+.badge {
+  position: absolute;
+  right: -12px;
+}
+
+.menuitem:active,
+.menuitem:focus {
+  background-color: #d1d1d1;
+}
+
+.logo {
+  width: auto;
+  height: 60px;
+  margin-left: 40px;
+}
+
+.dropdownMenu {
+  right: 0;
+  margin-bottom: 10px;
+}

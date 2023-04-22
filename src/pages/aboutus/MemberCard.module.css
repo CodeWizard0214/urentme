@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 320px;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 18px 12px 0 12px;
+}
+
+.image {
+  width: 250px;
+  height: 200px;
+  border-radius: 2px;
+  overflow: hidden;
+}

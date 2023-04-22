@@ -1,0 +1,47 @@
+.container {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 56px;
+  color: #121212;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .card {
+    position: relative;
+  }
+
+  .card:before {
+    position: absolute;
+    content: '';
+    top: -25px;
+    right: -42px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 25px;
+  }
+
+  .card:nth-of-type(2n-1)::before {
+    background-image: url(../../assets/images/home/curveOdd.svg);
+  }
+
+  .card:nth-of-type(2n)::before {
+    background-image: url(../../assets/images/home/curveEven.svg);
+    top: unset;
+    bottom: -25px;
+  }
+
+  .card:last-child::before {
+    display: none;
+  }
+}

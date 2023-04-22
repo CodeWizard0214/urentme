@@ -1,0 +1,28 @@
+.input {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #121212;
+  background-color: #ebebeb;
+  width: 100%;
+  border: none;
+  border-radius: 28px;
+  padding: 8px 24px;
+}
+
+.input::placeholder {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #8c8c8c;
+}
+
+.input:focus {
+  background-color: #ebebeb;
+  outline: none;
+}
+
+.searchIcon {
+  color: #8c8c8c;
+  position: absolute;
+  top: 30%;
+  right: 24px;
+}

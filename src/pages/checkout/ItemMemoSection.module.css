@@ -1,0 +1,27 @@
+.container {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.itemImage {
+  width: 340px;
+  height: 240px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: -24px 0 0 0;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .itemImage {
+    /* height: 180px; */
+  }
+
+  .avatar {
+    margin: 0 0 0 -24px;
+  }
+}

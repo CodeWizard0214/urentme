@@ -1,0 +1,29 @@
+.container {
+  min-width: 300px;
+}
+
+.mbox {
+  max-width: 560px;
+}
+
+.textbox {
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.left {
+  background-color: #f0f1f5;
+  color: #5c5c5c;
+}
+
+.right {
+  background-color: var(--app-primary);
+  color: #ffffff;
+}
+
+.avatar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 4px;
+}

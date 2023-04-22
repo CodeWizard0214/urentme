@@ -1,0 +1,5 @@
+.button {
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 1.6rem;
+}

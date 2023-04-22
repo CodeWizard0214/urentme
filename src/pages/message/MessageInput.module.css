@@ -1,0 +1,28 @@
+.input {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #121212;
+  background-color: #f9f9f9;
+  width: 95%;
+  border: none;
+  border-radius: 28px;
+  padding: 8px 24px;
+}
+
+.input::placeholder {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #9b9b9b;
+}
+
+.input:focus {
+  background-color: #f9f9f9;
+  outline: none;
+}
+
+.send {
+  width: 36px;
+  height: 36px;
+  background: var(--app-primary);
+  border-radius: 3px;
+}

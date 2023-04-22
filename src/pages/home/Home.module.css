@@ -1,0 +1,9 @@
+.nearby {
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .nearby {
+    margin-top: 4.5rem;
+  }
+}

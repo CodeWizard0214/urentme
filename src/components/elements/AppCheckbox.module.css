@@ -1,0 +1,19 @@
+.checkbox {
+  border-top:none !important;
+  border-right: none !important;
+  background:linear-gradient(to right, var(--app-primary) 80%, transparent 20%) top;
+  background-repeat: no-repeat;
+  background-size:100% 2px;
+  position:relative;
+}
+
+.checkbox::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  bottom: 0;
+  width: 2px;
+  height: 50%;
+  background: var(--app-primary);
+}

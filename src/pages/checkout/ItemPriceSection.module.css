@@ -1,0 +1,25 @@
+.priceContainer {
+  background-color: #fbfbfb;
+  border-radius: 4px;
+}
+
+.textarea {
+  width: 100%;
+  height: 160px;
+}
+
+.comment {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .textarea {
+    height: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .textarea, .comment {
+    width: 420px;
+  }
+}

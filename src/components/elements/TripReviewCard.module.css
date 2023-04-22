@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 1.625rem;
+}
+
+.readmore span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #5c5c5c;
+}
+
+.readmore span>div {
+  float: right;
+  color: #121212;
+  cursor: pointer;
+}
